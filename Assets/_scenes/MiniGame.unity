@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 374957588}
   m_Layer: 0
   m_Name: Pick Ups
-  m_TagString: Untagged
+  m_TagString: Pick Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -995,6 +995,11 @@ Prefab:
     - target: {fileID: 1555169238546270, guid: 46ab9b010e9c1f54d871d29d4a9caf58, type: 2}
       propertyPath: m_Name
       value: Pick Up (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23440825513326452, guid: 46ab9b010e9c1f54d871d29d4a9caf58,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46ab9b010e9c1f54d871d29d4a9caf58, type: 2}
@@ -1485,13 +1490,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4553473927220338, guid: 46ab9b010e9c1f54d871d29d4a9caf58, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.50000006
+    - target: {fileID: 65743913590182420, guid: 46ab9b010e9c1f54d871d29d4a9caf58,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4553473927220338, guid: 46ab9b010e9c1f54d871d29d4a9caf58, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.50000024
+    - target: {fileID: 1555169238546270, guid: 46ab9b010e9c1f54d871d29d4a9caf58, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46ab9b010e9c1f54d871d29d4a9caf58, type: 2}
